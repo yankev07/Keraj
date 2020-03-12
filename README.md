@@ -5,8 +5,9 @@ Repository Containing files for UT Arlington's CSE6363 - Machine Learning Final 
 
 * Our application will use the phone's camera to classify in real-time dog breeds
 * Our app's dependencies include Firebase ML
+* Model trained using the Stanford dogs dataset with Firebase ML Kit
 
-
+![Keraj splashscreen](/screenshots/keraj_splashscreen.png)
 
 
 
@@ -14,4 +15,4 @@ Repository Containing files for UT Arlington's CSE6363 - Machine Learning Final 
 
 ## Notes
 
-This application is not intended to be published or commercialized. It is just a prototype that 
+This version of the app is not intended to be published or commercialized. It is just a prototype that will be adjuated and improved in its future versions
