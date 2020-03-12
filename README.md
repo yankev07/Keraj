@@ -18,4 +18,4 @@ Repository Containing files for UT Arlington's CSE6363 - Machine Learning Final 
 
 ## Notes
 
-This version of the app is not intended to be published or commercialized. It is just a prototype that will be adjuated and improved in its future versions
+This version of the app is not intended to be published or commercialized. It is just a prototype that will be adjusted and improved in its future versions
