@@ -10,7 +10,7 @@ Repository Containing files for UT Arlington's CSE6363 - Machine Learning Final 
 ## User Interface
 ![Keraj splashscreen](/screenshots/keraj_splashscreen.png)
 
-![Keraj splashscreen](/screenshots/keraj_maincreen.png)
+![Keraj mainscreen](/screenshots/keraj_mainscreen.png)
 
 
 
