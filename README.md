@@ -7,7 +7,10 @@ Repository Containing files for UT Arlington's CSE6363 - Machine Learning Final 
 * Our app's dependencies include Firebase ML
 * Model trained using the Stanford dogs dataset with Firebase ML Kit
 
+## User Interface
 ![Keraj splashscreen](/screenshots/keraj_splashscreen.png)
+
+![Keraj splashscreen](/screenshots/keraj_maincreen.png)
 
 
 
