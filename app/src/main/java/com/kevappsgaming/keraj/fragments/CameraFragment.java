@@ -6,6 +6,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
@@ -42,6 +43,7 @@ import android.widget.Toast;
 
 import com.kevappsgaming.keraj.AutoFitTextureView;
 import com.kevappsgaming.keraj.R;
+import com.kevappsgaming.keraj.activities.CameraActivityCat;
 import com.kevappsgaming.keraj.tflite.Classifier;
 import com.kevappsgaming.keraj.tflite.Recognition;
 
@@ -432,10 +434,16 @@ public class CameraFragment extends Fragment
     @Override
     public void onViewCreated(final View view, Bundle savedInstanceState) {
         view.findViewById(R.id.action_button).setOnClickListener(this);
+
+
         view.findViewById(R.id.info).setOnClickListener(this);
         mTextureView = (AutoFitTextureView) view.findViewById(R.id.texture);
         accuracy = view.findViewById(R.id.accuracy);
     }
+
+
+
+    /*#######################################################*/
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
@@ -445,7 +453,7 @@ public class CameraFragment extends Fragment
         } catch (IOException e) {
             Log.e("CameraFragment", "Failed to initialize image classifier");
         }
-        //mFile = new File(getActivity().getExternalFilesDir(null), "pic.jpg");
+        mFile = new File(getActivity().getExternalFilesDir(null), "pic.jpg");
     }
 
     @Override
@@ -919,12 +927,19 @@ public class CameraFragment extends Fragment
         }
     }
 
+
+    /*################################################*/
+
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
+            // Switching between cats/dogs
             case R.id.action_button: {
+                Intent intent = new Intent(getActivity(), CameraActivityCat.class);
+                startActivity(intent);
             }
             case R.id.info: {
+                Toast.makeText(getActivity(), "Dog Classification activated", Toast.LENGTH_LONG).show();
             }
         }
     }

@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import com.kevappsgaming.keraj.R;
 import com.kevappsgaming.keraj.activities.CameraActivity;
+import com.kevappsgaming.keraj.activities.CameraActivityCat;
 import com.kevappsgaming.keraj.activities.MainActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
