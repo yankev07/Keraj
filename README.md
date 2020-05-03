@@ -1,5 +1,5 @@
 ## CSE6363-MachineLearningProject: Keraj
-Repository Containing files for UT Arlington's CSE6363 - Machine Learning Final Project (Image Classification using Deep Learning)
+Repository Containing files for UT Arlington's CSE6363 - Machine Learning Final Project (Image Classification using Deep Learning for Dogs and Cats)
 
 ## Instructions
 
